@@ -1,19 +1,29 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Remove qualquer rolagem horizontal */
+}
 /* Escreva seu codigo css aqui */
 header{
     width: 100%;
 }
 
-main{
-    background-color: rgb(255, 255, 255);
+main {
+    width: 100%;
 }
 
-
+main{
+    
+    background-color: rgb(255, 255, 255);
+}
 
 .texto-Informativo {
     background-color:rgba(87, 48, 13);
@@ -30,74 +40,83 @@ main{
 
 
 #header-navbar  {
-    width:99,9%;                            /* Id que está estilizando o background do fundo da barra de navegaçaõ*/
-    background-color: transparent;
-    border: 2px solid rgb(220, 195, 93);
+    width:99,9%; 
+    height: 109px;                           /* Id que está estilizando o background do fundo da barra de navegaçaõ*/
+    background-color:rgb(255, 255, 255);
+    
+    
 }
-
 
 
 
 .container{                   
-    display: flex;              
-    flex-direction: row;
-    box-sizing: border-box;             /*ajustes dos itens da lista e o espaçamento */
-    width: 100%;
-    justify-content: space-between;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    display: flex; 
+    align-items: start;
+    justify-content: center;
+    
+    
+    
+              
+    
+    
+    
 }
 
-.container img {
-    filter: (100%);
-}
+
+
 
 .container-nav-links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
+    justify-content: space-between;
+    
     
   
 }
 
-
-.navbar{                            /* Alinhamento dos elementos da barra de navegação*/  
+.navegacao {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 110px;
-    gap: 180px;
+    padding-right: 70px;
+    
+    
+    
 }
 
 
-.menu {                /* Alinhamento da lista com outros elementos*/  
+
+
+
+
+.menu {              
     display: flex;
     list-style: none;
-    margin: 0;
-    padding-left: 0;            /* O padding-left está estilizando a margem da esquerda no menu */
+    gap:  40px;
+    padding-right: 50px;
+    align-items: center;
+    
+   
+    
+  
+          
           
 } 
 
 
 .menu li {                  /* Alinhamento da lista */  
-    
-    padding: 0 55px;
-    font-size: 1rem;
+    align-items: center;
 }
 
 
 .menu li a {
-    font-family: "Kanit", sans-serif;
-    font-weight: 430;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-size: 17px;
+    font-weight: 450;
     text-decoration: none;     /* cor da lista e detalhes*/  
     color: rgb(0, 0, 0);
-    position: relative
+    position: relative;
+    
+    
     
     
     
@@ -105,24 +124,28 @@ main{
 
 .menu li a::after {
     content: "";
-    position: absolute;
     left: 0;
-    bottom: -2px; /* Ajusta a posição abaixo do texto */
+    position: absolute;
+    bottom: -2px; 
     width: 0;
-    height: 3px; /* Altura do retângulo (linha) */
-    background-color: rgb(255, 232, 137); /* Cor do retângulo */
-    transition: width 0.3s ease; /* Efeito de transição suave */
+    height: 3px; 
+    background-color: rgb(255, 232, 137); 
+    transition: width 0.3s ease; 
+    
 }
 
 .menu li a:hover::after {
     width: 100%;
+    
 }
 
 
 .logo {                         /* Alinhamento da Logo */   
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 10px;
+    padding-left:40px ;
     
     
     
@@ -140,9 +163,10 @@ main{
 
 svg {
     color: rgb(87, 48, 13);    
-    width: 1rem;
+    height: 20px;
+    width: 20px;
    
-}
+} 
 /* Final do header*/
 
 
@@ -857,7 +881,7 @@ svg {
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     width: 1903;
-    height: 430px;
+    height: 530px;
     padding-top: 100px;
     padding-bottom: 100px;
     
@@ -887,6 +911,7 @@ svg {
     font-size: 15px;
     font-style: normal;
     
+    
 }
 
 
@@ -895,9 +920,10 @@ svg {
     justify-content: space-around;
     background-color: #eeeeee;
     width: 1903px;
-    height: 430px;
+    height: 530px;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 .main-h1-Sobre {
@@ -908,6 +934,7 @@ svg {
     z-index: 1; 
     color: #000000;
     margin: auto;
+    
 }
 
 .main-p-sobre {
@@ -918,8 +945,11 @@ svg {
     font-optical-sizing: auto;
     font-size: 15px;
     font-style: normal;
+    padding-bottom: 100px;
+    
    
 }
+
 
 
 .cointainer-biblioteca {
