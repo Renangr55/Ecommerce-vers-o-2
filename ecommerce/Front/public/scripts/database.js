@@ -71,7 +71,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 24.99, 
         descricao:"A Bíblia Sagrada - Capa Leão é uma edição imponente e reverente, ideal para quem busca uma obra de fé com um design marcante. Sua capa, rica em detalhes, apresenta um leão majestoso, símbolo de força, coragem e realeza, com detalhes dourados que destacam a imagem. O leão, em sua pose imponente, transmite a ideia de proteção divina e a presença de Cristo como o Leão da tribo de Judá. Esta capa não apenas realça a beleza do livro, mas também carrega um profundo significado espiritual, representando o poder e a soberania de Deus. O acabamento é refinado, com uma textura agradável ao toque, e a impressão do conteúdo segue o padrão tradicional das edições sagradas, com letras legíveis e papel de qualidade, proporcionando uma leitura confortável. Ideal para presentear ou para ter em sua biblioteca pessoal, a Bíblia Sagrada - Capa Leão é uma obra de inspiração e fé.",
         imagemProduto: {
-            img1:"./images/products/prod05/img01.png",
+            img1:"./images/products/prod05/img01.jpg",
             img2:"./images/products/prod05/img02.png",
             img3:"./images/products/prod05/img3.png",
             img4:"./images/products/prod05/img4.png",
@@ -86,13 +86,13 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         tituloProduto:"As Virtudes Morais, armadura da vida cristã ", 
         preco: 35.90, 
         descricao:"As Virtudes Morais, Armadura da Vida Cristã é uma obra que aborda de forma profunda e prática as virtudes essenciais para a vida cristã, destacando como elas funcionam como uma 'armadura espiritual', protegendo e fortalecendo o fiel em sua jornada de fé.",
-        // imagemProduto: {
-        //     img1:"./images/products/prod06/img01.png",
-        //     img2:"./images/products/prod06/img2.png",
-        //     img3:"./images/products/prod06/img3.png",
-        //     img4:"./images/products/prod06/img4.png",
+        imagemProduto: {
+            img1:"./images/products/prod06/img01.jpg",
+            img2:"./images/products/prod06/img2.png",
+            img3:"./images/products/prod06/img3.png",
+            img4:"./images/products/prod06/img4.png",
 
-        // },
+        },
         categoriaProduto: 'livros',
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true

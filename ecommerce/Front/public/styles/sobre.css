@@ -1,0 +1,391 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+}
+main{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.texto-Informativo {
+    background-color:rgba(87, 48, 13);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto-Informativo > h1 {
+    color: #23170e;
+    font-size: 1rem ;
+}
+
+
+
+#header-navbar  {
+    width:99,9%; 
+    height: 109px;                           /* Id que está estilizando o background do fundo da barra de navegaçaõ*/
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+
+
+
+.container{                   
+    display: flex; 
+    align-items: start;
+    justify-content: center;
+    
+    
+    
+              
+    
+    
+    
+}
+
+
+
+
+.container-nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  
+}
+
+.navegacao {
+    display: flex;
+    padding-right: 70px;
+    
+    
+    
+}
+
+
+
+
+
+
+.menu {              
+    display: flex;
+    list-style: none;
+    gap:  40px;
+    padding-right: 50px;
+    align-items: center;
+    
+   
+    
+  
+          
+          
+} 
+
+
+.menu li {                  /* Alinhamento da lista */  
+    align-items: center;
+}
+
+
+.menu li a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 450;
+    text-decoration: none;     /* cor da lista e detalhes*/  
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+    
+    
+    
+    
+}
+
+.menu li a::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -2px; 
+    width: 0;
+    height: 3px; 
+    background-color: rgb(255, 232, 137); 
+    transition: width 0.3s ease; 
+    
+}
+
+.menu li a:hover::after {
+    width: 100%;
+    
+}
+
+
+.logo {                         /* Alinhamento da Logo */   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left:40px ;
+    
+    
+    
+    
+}
+
+
+.logo img {               /* tamanho da logo*/  
+    
+    height: 5rem;
+    width: 5rem;
+       
+}           
+
+
+svg {
+    color: rgb(87, 48, 13);    
+    height: 20px;
+    width: 20px;
+   
+} 
+
+
+
+
+
+.text-main-sobre_nós {
+    
+    width: 1903px;
+    height: 300px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/ecommerce/Front/images/biblioteca-graded-school-mauricio-moreno-ciclovivo-13-1024x683.jpeg);
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    
+}
+
+.text-main-sobre_nós::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(87, 48, 13, 0.9); 
+    z-index: 0; 
+    
+  
+}
+
+
+.text-main-sobre_nós > h1{
+    align-items: end;
+    color: white;  
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-size: 35px;
+    font-style: normal;
+    z-index: 1; 
+    
+    
+    
+
+}
+.text-main-paragrafo {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 1903;
+    height: 530px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+
+
+}
+
+
+.main-h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-style: normal;
+    z-index: 1; 
+    color: #000000;
+    margin: auto;
+   
+
+}
+
+.P-main {
+    color: rgb(0, 0, 0);
+    margin:  auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    
+    
+}
+
+
+.text-main-retangulo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    width: 1903px;
+    height: 530px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.main-h1-Sobre {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-style: normal;
+    z-index: 1; 
+    color: #000000;
+    margin: auto;
+    
+}
+
+.main-p-sobre {
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    padding-bottom: 100px;
+    
+   
+}
+
+
+
+.cointainer-biblioteca {
+    background-color: #ffffff;
+    height: 1000px;
+    
+    
+}
+
+.text-biblioteca {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: hwb(197 3% 91%);
+    
+    
+    
+}
+
+
+.text-biblioteca > h1 {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 35px;
+    font-style: normal;
+
+}
+
+
+
+
+.imagens1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    
+}
+
+.imagens1 > img {
+    width: 30%;
+    
+}
+
+.imagens2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.imagens2 > img {
+    width: 30%;
+    
+}
+
+
+
+
+
+.text-main-compra {
+    background-color: rgb(255, 232, 137);
+    width: 1897px;
+    height: 130px;
+
+}
+
+.info-biblioteca {
+    justify-content: center;
+    
+
+}
+
+
+
+
+.Compra{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+
+
+.Compra > h1 {
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-style: normal;
+
+}
+
+.Compra-paragrafo {
+    display: flex;
+    justify-content: center;  
+    padding-top: 1.5rem;
+    padding-bottom: 40px;
+
+}
+
+.Compra-paragrafo > p {
+    margin: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+}

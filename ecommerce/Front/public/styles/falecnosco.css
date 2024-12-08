@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+}
+main{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.texto-Informativo {
+    background-color:rgba(87, 48, 13);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto-Informativo > h1 {
+    color: #23170e;
+    font-size: 1rem ;
+}
+
+
+
+#header-navbar  {
+    width:99,9%; 
+    height: 109px;                           /* Id que está estilizando o background do fundo da barra de navegaçaõ*/
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+
+
+
+.container{                   
+    display: flex; 
+    align-items: start;
+    justify-content: center;
+    
+    
+    
+              
+    
+    
+    
+}
+
+
+
+
+.container-nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  
+}
+
+.navegacao {
+    display: flex;
+    padding-right: 70px;
+    
+    
+    
+}
+
+
+
+
+
+
+.menu {              
+    display: flex;
+    list-style: none;
+    gap:  40px;
+    padding-right: 50px;
+    align-items: center;
+    
+   
+    
+  
+          
+          
+} 
+
+
+.menu li {                  /* Alinhamento da lista */  
+    align-items: center;
+}
+
+
+.menu li a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 450;
+    text-decoration: none;     /* cor da lista e detalhes*/  
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+    
+    
+    
+    
+}
+
+.menu li a::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -2px; 
+    width: 0;
+    height: 3px; 
+    background-color: rgb(255, 232, 137); 
+    transition: width 0.3s ease; 
+    
+}
+
+.menu li a:hover::after {
+    width: 100%;
+    
+}
+
+
+.logo {                         /* Alinhamento da Logo */   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left:40px ;
+    
+    
+    
+    
+}
+
+
+.logo img {               /* tamanho da logo*/  
+    
+    height: 5rem;
+    width: 5rem;
+       
+}           
+
+
+svg {
+    color: rgb(87, 48, 13);    
+    height: 20px;
+    width: 20px;
+   
+} 
+
+
+
+
+/*main da página do faleconosco */
+
+.text-contato {
+    width: 100%;
+    max-width: 1903px; /* Restringe a largura máxima */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/ecommerce/Front/images/fale-conosoco.jpg);
+    background-size: cover;
+    background-position: 50% 69%;
+    position: relative;
+}
+
+
+.text-contato::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #57300D;
+    z-index: 0; 
+    
+}
+
+.text-contato  > h1{
+    padding-right: 30px;
+    margin: auto;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+    z-index: 1;
+}
+
+.container-fale-consco {
+    padding-top: 100px;
+    
+}
+
+.text-content-contact {
+    display: flex;
+    padding-left: 200px;
+    
+}
+
+.text-content-contact > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.form-container {
+     
+        flex: 1; /* O formulário ocupa espaço proporcional */
+        max-width: 500px; /* Limita a largura máxima */
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+}
+
+.container-fale-conosco{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 100px;
+}
+.container-fale-conosco > .text-fale-conosco{
+    padding-left: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+   
+    
+}
+
+input[type="tel"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+   
+    
+}
+
+
+button {
+    background-color: #57300D;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+    color: #ffffff;
+    width: 410px;
+    height: 60px;
+}
+
