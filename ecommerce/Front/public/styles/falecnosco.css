@@ -13,15 +13,21 @@ main{
 }
 
 .texto-Informativo {
-    background-color:rgba(87, 48, 13);
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    background-color:rgba(87, 48, 13);
+    height: 23px;
+    
 }
 
-.texto-Informativo > h1 {
-    color: #23170e;
-    font-size: 1rem ;
+.texto-Informativo > P {
+    color: whitesmoke;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 0;
+    text-decoration: none;
+    
 }
 
 
@@ -100,7 +106,7 @@ main{
     font-size: 17px;
     font-weight: 450;
     text-decoration: none;     /* cor da lista e detalhes*/  
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);/* cor da lista e detalhes*/  
     position: relative;
     
     
@@ -167,7 +173,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/ecommerce/Front/images/fale-conosoco.jpg);
+    background-image: url(/ecommerce/Front/public/images/fale-conosoco.jpg);
     background-size: cover;
     background-position: 50% 69%;
     position: relative;
@@ -197,10 +203,6 @@ svg {
     z-index: 1;
 }
 
-.container-fale-consco {
-    padding-top: 100px;
-    
-}
 
 .text-content-contact {
     display: flex;
@@ -215,26 +217,33 @@ svg {
     font-style: normal;
 }
 
-.form-container {
-     
-        flex: 1; /* O formulário ocupa espaço proporcional */
-        max-width: 500px; /* Limita a largura máxima */
-        background: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-}
-
 .container-fale-conosco{
     display: flex;
     justify-content: center;
     gap: 200px;
     padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
+
 .container-fale-conosco > .text-fale-conosco{
     padding-left: 10px;
 }
+
+.form-container {
+     
+        
+    max-width: 500px; /* Limita a largura máxima */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+}
+
+
+
 
 .form-container {
     display: flex;
@@ -284,3 +293,116 @@ button {
     height: 60px;
 }
 
+
+
+
+.footer-info-container {
+    padding-top: 3.125em;
+    padding-bottom: 1.5625em;
+    column-gap: 16px;
+    align-items: stretch;
+    border-top: 1px solid #e2e2e2;
+    display: flex;
+    
+    
+}
+
+.footer-info-card {
+    background-color: #ececeb;
+    width: 22.35em ;
+    padding:11px;
+    
+}
+
+.footer-info-card h4{
+    font-weight: 400;
+    padding-bottom: 16px;
+
+}
+
+.footer-info-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-bottom: 16px;
+}
+
+.footer-info-card h5{
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+
+
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
+    background-color: #57300D;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+
+.footer-navitem-container {
+    
+    margin-right: 51px;
+}
+
+
+.footer-navitem-container h3,
+.footer-social-container h3{
+    padding-bottom: 16px;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.footer-navitem-container ul{
+   list-style: none;
+   
+}
+
+.footer-navitem-container li{
+    padding-bottom: 10px;
+ }
+
+ .footer-navitem-container li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 0;
+ }
+
+ .footer-social-container h5{
+    padding-bottom: 10px;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 0;
+
+ }
+
+ .footer-social-container i {
+    padding-right: 16px;
+    font-size: 36px;
+    
+ }
+
+ .rights {
+    text-align: center;
+    padding: 32px 0;
+    color: #000000;
+ }
+ .container-footer > h5 {
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-size: 14px;
+ }
