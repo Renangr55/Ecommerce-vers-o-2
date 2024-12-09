@@ -1,6 +1,6 @@
 // Get the orders from local storage
 // Get the orders from local storage
-import '../node_modules/xlsx/xlsx.js';
+import 'xlsx/xlsx';
 let orders = JSON.parse(localStorage.getItem("pedidos"));
 
 // Function to display the orders

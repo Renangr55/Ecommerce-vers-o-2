@@ -145,4 +145,5 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     }
+  
 ]
