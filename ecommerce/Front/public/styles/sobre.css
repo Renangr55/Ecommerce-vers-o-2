@@ -185,7 +185,7 @@ svg {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(87, 48, 13, 0.9); 
+    background-color:rgba(87, 48, 13);
     z-index: 0; 
     
   
@@ -236,6 +236,7 @@ svg {
 .P-main {
     color: rgb(0, 0, 0);
     margin:  auto;
+    margin-left: auto;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: 15px;
@@ -270,7 +271,7 @@ svg {
 .main-p-sobre {
     color: rgb(0, 0, 0);
     margin: auto;
-    margin-right: auto;
+    padding-left: 200px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-size: 15px;
