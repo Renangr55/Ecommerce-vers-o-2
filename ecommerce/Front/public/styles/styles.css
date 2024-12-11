@@ -236,7 +236,7 @@ svg {
 
 .text-main {
     display: flex;
-    padding-left: 8.5rem;
+    padding-left: 10.5%;
     padding-top: 3rem;
 
 }
@@ -298,7 +298,6 @@ svg {
 
 .text-container {
     padding: 12px 32px;
-    /* background-color: ; */
     border-radius: 15px;
 }
 
@@ -387,6 +386,7 @@ svg {
     column-gap: 16px;
     padding-bottom: 50px;
     color: white;
+    
 }
 
 .section-product-grid {
@@ -435,7 +435,12 @@ svg {
 }
 
 .product.text-container.page-title-small {
-    margin-top: 24px;
+    border-radius: 1px;
+    margin-top: 22px;
+    margin-left: 10px;
+    background-color: #57300D;
+    color: #ffffff;
+    
     
 
    
@@ -444,12 +449,19 @@ svg {
 
 .product.text-container {
     margin: 10px 0px;
+        
 }
 
 .product.text-container h4 {
     font-weight: 400;
     font-size: 0.875em;
     padding-bottom: 5px;
+    width: 100px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #57300D;
     
     
 }
