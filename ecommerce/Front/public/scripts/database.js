@@ -109,7 +109,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
             img4:"./images/products/prod07/img04.jpg",
 
         },
-        categoriaProduto: 'Bíblia',
+        categoriaProduto: 'Livros',
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
@@ -125,7 +125,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
             img4:"./images/products/prod08/img04.jpg",
 
         },
-        categoriaProduto: 'Bíblia',
+        categoriaProduto: 'Livro',
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
@@ -141,9 +141,103 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
             img4:"./images/products/prod09/img04.jpg",
 
         },
-        categoriaProduto: 'Bíblia',
+        categoriaProduto: 'livro',
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
-    }
+    },
+    {
+        codigoProduto:10,
+        tituloProduto:"Decisões", 
+        preco: 300.00, 
+        descricao:"'A Cabana' é um romance de William P. Young que aborda questões profundas de fé, perdão e cura emocional. O livro foi publicado pela primeira vez em 2007 e rapidamente se tornou um best-seller internacional.",
+        imagemProduto: {
+            img1:"./images/products/prod10/img01.png",
+         
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+
+    {
+        codigoProduto:11,
+        tituloProduto:"Graça Transformadora", 
+        preco: 299.00, 
+        descricao:"'A Benção no Lugar Certo' é um livro escrito por Rainer Maria Rilke, um dos maiores poetas da literatura mundial. Publicado originalmente em 1923, esse trabalho não é exatamente uma narrativa, mas sim uma reflexão profunda sobre a busca por significado, identidade e o lugar do ser humano no mundo.",
+        imagemProduto: {
+            img1:"./images/products/prod11/img01.jpg",
+            img2:"./images/products/prod11/img02.jpg",
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Lidos",
+        exibirHome: true
+    },
+
+    {
+        codigoProduto:12,
+        tituloProduto:"Livro", 
+        preco: 90.00, 
+        descricao:"'De Volta à Cabana' é a continuação do famoso romance 'A Cabana', escrito por William P. Young. Publicado em 2017, o livro segue a história de Mackenzie Allen Phillips, o protagonista de 'A Cabana', mas agora com um novo foco: a jornada de cura e reflexão após os eventos do primeiro livro.",
+        imagemProduto: {
+            img1:"./images/products/prod12/img01.jpg",
+            img2:"./images/products/prod12/img02.jpg",
+            
+            
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Lidos",
+        exibirHome: true
+    },
+
+    {
+        codigoProduto:13,
+        tituloProduto:"O coração da bíblia", 
+        preco: 39.90, 
+        descricao:"'O Coração da Bíblia' é uma obra escrita por John MacArthur, um renomado teólogo e pastor. O livro tem como objetivo explorar os temas centrais da Bíblia, ajudando os leitores a compreender as mensagens mais profundas das Escrituras, tanto do Antigo quanto do Novo Testamento.",
+        imagemProduto: {
+            img1:"./images/products/prod13/img01.jpg",
+            img2:"./images/products/prod13/img02.jpg",
+            
+            
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Lidos",
+        exibirHome: true
+    },
+
+    {
+        codigoProduto:14,
+        tituloProduto:"Bíblia do Leão da Tribo de Judá", 
+        preco: 56.19, 
+        descricao:"A Bíblia do Leão da Tribo de Judá é uma edição especial com capa dura, oferecendo robustez e durabilidade. Sua tradução segue a Nova Tradução na Linguagem de Hoje (NTLH), que visa tornar o texto bíblico mais acessível ao público contemporâneo, utilizando uma linguagem clara e simples. Essa versão é ideal para quem busca uma Bíblia prática, tanto para estudos quanto para uso diário, mantendo o equilíbrio entre profundidade teológica e clareza na comunicação.",
+        imagemProduto: {
+            img1:"./images/products/prod14/img01.jpg",
+            
+            
+            
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Lidos",
+        exibirHome: true
+    },
+
+    {
+        codigoProduto:15,
+        tituloProduto:"Bíblia do Leão da Tribo de Judá", 
+        preco: 69.60, 
+        descricao:"A Bíblia Sagrada com Capa Leão é uma edição especial que combina tradição e modernidade. Com acabamento premium e capa dura, ela apresenta o texto da Nova Almeida Atualizada (NAA), uma tradução fiel e acessível. Esta versão é ideal para quem busca uma Bíblia com design elegante, robusta para o uso diário e fácil leitura.",
+        imagemProduto: {
+            img1:"./images/products/prod15/img01.jpg",
+            
+            
+            
+        },
+        categoriaProduto: 'Livro',
+        classificacaoProduto:"Mais_Lidos",
+        exibirHome: true
+    },
+  
+  
+
   
 ]

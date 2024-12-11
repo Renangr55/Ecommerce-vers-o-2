@@ -796,13 +796,25 @@ svg {
 
 }
 
-.Button-checkout > button {
-    background-color: #57300D;
-    color: #ffffff;
-    font-size: 2rem;
+.button-style {
+    display: inline-block; /* Para parecer um botão */
+    padding: 10px 20px;
     width: 200px;
-    height: 100px;
-}
+    height: 40px;
+    background-color: #57300D;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button-style:hover {
+    background-color: #351e0d;
+  }
+
+
 
 .form-field {
     display: flex;
