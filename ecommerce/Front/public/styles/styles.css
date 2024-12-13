@@ -286,7 +286,9 @@ svg {
     font-weight: 700;
     line-height: 1.5em;
     
+    
 }
+
 
 .page-title-small {
     font-size: 0.875em;
@@ -297,7 +299,7 @@ svg {
 }
 
 .text-container {
-    padding: 12px 32px;
+    padding: 12px 62px;
     border-radius: 15px;
 }
 
@@ -380,19 +382,23 @@ svg {
     width: 1500px;
 }
 
+.main-content-container{
+    padding-top: 50px;
+}
+
 .products-container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.9fr 3fr;
     column-gap: 16px;
     padding-bottom: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 
 .section-product-grid {
     padding-top: 1.125em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
     align-items: start;
     justify-items: center;
     column-gap: 16px;
@@ -695,16 +701,20 @@ svg {
     column-gap: 32px;
     margin-bottom: 32px;
     
+  
+    
 }
 
 .cart_item_main_img {
     flex-basis: 180px;
     border-radius: 5px;
+    
 }
 
 .cart_item_main_img img{
     width: 120px;
     object-fit: cover;
+    
 }
 
 .cart_item_info p:first-child {
