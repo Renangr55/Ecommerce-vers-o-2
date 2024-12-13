@@ -696,7 +696,7 @@ svg {
 
 .cart_item {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     column-gap: 32px;
     margin-bottom: 32px;
@@ -715,6 +715,10 @@ svg {
     width: 120px;
     object-fit: cover;
     
+}
+
+.cart_item_info{
+    width: 80%;
 }
 
 .cart_item_info p:first-child {
@@ -1020,12 +1024,6 @@ svg {
     font-optical-sizing: auto;
     font-size: 14px;
  }
-
-
-
-
-
-
 
 
 

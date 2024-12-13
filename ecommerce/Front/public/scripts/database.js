@@ -4,7 +4,7 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
     {
         codigoProduto:1,
-        tituloProduto:"Bíblia de Estudo King James com Estudo Holman/ Com subtítulos.", 
+        tituloProduto:"Bíblia de Estudo King James - Edição Exclusiva 2024 - Estudo Holman e Subtítulos", 
         preco: 340.00, 
         descricao:"A Bíblia de Estudo King James com Estudo Holman é uma edição especial da tradicional Bíblia King James Version (KJV), que combina o texto clássico da versão King James com recursos de estudo adicionais fornecidos pela Holman Bible Publishers. Esta Bíblia foi projetada para oferecer uma experiência mais profunda e enriquecedora para os leitores que desejam um entendimento mais completo das Escrituras, especialmente aqueles que apreciam o estilo literário e a beleza poética da KJV.",
         imagemProduto: {
@@ -223,9 +223,9 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
     {
         codigoProduto:15,
-        tituloProduto:"Os Evangelhos Em Sua Natureza, Essência E Profundidade", 
+        tituloProduto:"Os Evangelhos - Natureza, Essência e Profundidade - Edição Exclusiva 2024", 
         preco: 69.60, 
-        descricao:"Os Evangelhos Em Sua Natureza, Essência E Profundidade.",
+        descricao:"Os Evangelhos - Natureza, Essência e Profundidade - Edição Exclusiva 2024.",
         imagemProduto: {
             img1:"./images/products/prod15/img01.jpg",
             
