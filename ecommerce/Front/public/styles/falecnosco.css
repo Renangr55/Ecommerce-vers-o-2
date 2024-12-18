@@ -12,7 +12,7 @@ main{
     background-color: rgb(255, 255, 255);
     padding-bottom: 200px;
 }
-
+  /* Inicio do header*/
 .texto-Informativo {
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@ main{
     
 }
 
-
+/* Inicio da barra de navegação*/
 
 #header-navbar  {
     width:99,9%; 
@@ -162,6 +162,10 @@ svg {
     width: 20px;
    
 } 
+/* fim da da barra de navegação*/
+/* fim do header*/
+
+
 
 
 
@@ -296,7 +300,9 @@ button {
 }
 
 
+/*fim do main da página do faleconosco */
 
+/*Inicio do footer */
 
 .footer-info-container {
     padding-top: 3.125em;
@@ -408,3 +414,5 @@ button {
     font-optical-sizing: auto;
     font-size: 14px;
  }
+
+ /*fim do footer */

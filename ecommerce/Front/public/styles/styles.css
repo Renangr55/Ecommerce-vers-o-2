@@ -182,6 +182,7 @@ svg {
 
 
 
+/*Inicio do index.html */
 
 
 .escrita-inicial {
@@ -261,8 +262,11 @@ svg {
     margin-top: 1px; 
 }
     
+/*Fim do index.html */
 
-/* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
+
+/*Inicio da página product */
+
 
 .container-flex {
     display: flex;
@@ -432,7 +436,9 @@ svg {
     
 }
 
+/*Fim da página product */
 
+/*Inicio da página checkout */
 #product_page, #checkout, #billing{
     display: grid;
     column-gap: 32px;
@@ -475,6 +481,8 @@ svg {
 .product.main-text {
     font-size:1.2em
 }
+/*fim da página checkout */
+
 
 /* product page grid */
 
@@ -913,7 +921,8 @@ svg {
 }
 
 
-/* Footer*/
+/*Inicio do footer */
+
 .footer-info-container {
     padding-top: 3.125em;
     padding-bottom: 1.5625em;
@@ -1025,6 +1034,7 @@ svg {
     font-size: 14px;
  }
 
+/*Fim  do footer */
 
 
 

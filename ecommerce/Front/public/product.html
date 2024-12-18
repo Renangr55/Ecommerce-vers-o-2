@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,47 +10,59 @@
   <link rel="svg" href="/Front/index.html">
   <link rel="Sobre_nos" href="Sobre.html">
 </head>
+
+<html>
+
 <body>
-<header>
-  <div class="texto-Informativo">
-    <p> A sabedoria clama nas ruas, ergue sua voz nas praças. — Provérbios 1:20</p>
-  </div>
-  <div id="header-navbar">
-    <nav>
+  <!-- inicio do header-->
+  <header>
+    <div class="texto-Informativo">
+      <p> A sabedoria clama nas ruas, ergue sua voz nas praças. — Provérbios 1:20</p>
+    </div>
+    <div id="header-navbar">
+      <!-- inicio do menu de navegação-->
+      <nav>
         <div class="container-nav-links">
-            <div class="logo">
-              <img src="images/LOGO.png" alt="Logo">
+          <div class="logo">
+            <img src="images/LOGO.png" alt="Logo">
+          </div>
+          <div class="navegacao">
+            <ul class="menu">
+              <li><a href=" Sobre.html ">Sobre nós</a></li>
+              <li><a href="products.html">Produtos</a></li>
+              <li><a href="faleconosco.html">Fale Conosco</a></li>
+            </ul>
+            <div class="icon">
+              <a href="checkout.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-bag-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
+                </svg>
+              </a>
             </div>
-            <div class="navegacao">
-                <ul class="menu">
-                    <li><a href=" Sobre.html ">Sobre nós</a></li>
-                    <li><a href="products.html">Produtos</a></li>
-                    <li><a href="faleconosco.html">Fale Conosco</a></li>
-                </ul>
-                <div class="icon">
-                  <a href="checkout.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
-                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
-                    </svg>
-                  </a>
-              </div>
-            </div>
+          </div>
         </div>
-    </nav>
-  </div>
-</header>
-<main>
+      </nav>
+      <!-- fim do menu de navegação-->
+    </div>
+  </header>
+  <!-- fim do header-->
+
+  <!-- inicio do main-->
+
   <main class="product main-content container">
     <h2 class="product text-container page-title-small" id="product-category"></h2>
     <div class="product text-container" id="product-title">
       <h4>COD: 12345</h4>
-      <h3 class="product main-text">Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor Universal 12V 1/4" GSR 1000 Bivolt</h3>
+      <h3 class="product main-text">Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor
+        Universal 12V 1/4" GSR 1000 Bivolt</h3>
     </div>
     <section class="product text-container">
       <div id="product_page">
         <div class="grid_col_1">
-      
-          
+
+
         </div>
 
 
@@ -66,80 +79,81 @@
             <div class="quantity">
               <input type="number" name="quantity" id="quantity" value="1">
               <button class="shop_btn">comprar</button>
-            
+
             </div>
-            
+
           </div>
 
-          
-        <section>
-          <div class="freight_container">
-            <form action="">
-              <label for="">Calcule seu frete</label>
 
-              <div class="container-flex">
-                <input type="text" name="" id="" placeholder="Digite o cep da entrega">
-                <button class="freight_ok">ok</button>
+          <section>
+            <div class="freight_container">
+              <form action="">
+                <label for="">Calcule seu frete</label>
+
+                <div class="container-flex">
+                  <input type="text" name="" id="" placeholder="Digite o cep da entrega">
+                  <button class="freight_ok">ok</button>
+                </div>
+
+                <p><a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu
+                    cep</a></p>
+
+              </form>
+            </div>
+
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
               </div>
-            
-              <p><a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu cep</a></p> 
-            
-            </form>
-          </div>
-          
-          <div class="freight_pricing container-flex">
-            <div class="radio">
-              <input type="radio" name="" id="">
+              <div class="pricing">
+                <h3>R$ 70,00</h3>
+                <p>Entrega em até 3 dias uteis</p>
+              </div>
             </div>
-            <div class="pricing">
-              <h3>R$ 70,00</h3>
-              <p>Entrega em até 3 dias uteis</p>
-            </div>
-          </div>
 
-          <div class="freight_pricing container-flex">
-            <div class="radio">
-              <input type="radio" name="" id="">
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 50,00</h3>
+                <p>Entrega em até 5 dias uteis</p>
+              </div>
             </div>
-            <div class="pricing">
-              <h3>R$ 50,00</h3>
-              <p>Entrega em até 5 dias uteis</p>
-            </div>
-          </div>
 
-          <div class="freight_pricing container-flex">
-            <div class="radio">
-              <input type="radio" name="" id="">
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 30,00</h3>
+                <p>Entrega em até 7 dias uteis</p>
+              </div>
             </div>
-            <div class="pricing">
-              <h3>R$ 30,00</h3>
-              <p>Entrega em até 7 dias uteis</p>
-            </div>
-          </div>
 
-          <div class="freight_pricing container-flex">
-            <div class="radio">
-              <input type="radio" name="" id="">
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 20,00</h3>
+                <p>Entrega em até 10 dias uteis</p>
+
+              </div>
             </div>
-            <div class="pricing">
-              <h3>R$ 20,00</h3>
-              <p>Entrega em até 10 dias uteis</p>
-              
-            </div>
-          </div>
-        </section>
-        
-        
+          </section>
+
+
 
 
         </div>
 
       </div>
-      
+
     </section>
 
   </main>
-</main>
+  <!-- Fim do main -->
 
 
 
@@ -148,84 +162,72 @@
 
 
 
-<!-- Componente Pagina individual de Produtos -->
 
-<footer>
-  <section class="footer-info-container container">
-    <div class="footer-info-card">
-      <h4>Parcelamento</h4>
-      <h3>Em ate 10 vezes</h3>
-      <h5>
-        Parcelamos sua compra em ate 10x sem juros <br> para todos os cartões de
-        credito.
-      </h5>
-    </div>
-    <div class="footer-info-card">
-      <h4>Compre pelo</h4>
-      <h3>Whatsapp</h3>
-      <h5>
-        Horario de atendimento das 09:00 as 19:00 <br>das segunda a sexta
-      </h5>
-      <h3>(19)99999-9999</h3>
-    </div>
-    <div class="footer-info-card">
-      <h4>Fale conosco</h4>
-      <h3>Atendimento</h3>
-      <h5>
-        Horario de atendimento das 09:00 as 19:00 <br>da segunda até sexta feira.
-      </h5>
-      <h3>(19)99999-9999</h3>
-    </div>
-  </section>
-  <div class="footer-bg">
-    <section class="footer-nav container container-flex">
-      <div class="footer-nav-container">
-        <div class="footer-navitem-container">
-          <h3>Institucional</h3>
-          <ul>
-            <li><a href="Sobre.html">Sobre Nós</a></li>
-            <li><a href="faleconosco.html">Fale Conosco</a></li>
-            <li><a href="adm.html">Pedidos</a></li>
-            
-          </ul>
-          </div>
-        </div>
-        
-
-      <div class="footer-social-container">
-        <h3>Siga nossas redes sociais</h3>
-        <h5>Acompanhe as novidades pelas nossas redes sociais</h5>
-        <div class="social-icons">
-          <i class="bi bi-facebook"></i>
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-whatsapp"></i>
-        </div>
+  <!-- Componente Pagina individual de Produtos -->
+  <!-- inicio do footer-->
+  <footer>
+    <section class="footer-info-container container">
+      <div class="footer-info-card">
+        <h4>Parcelamento</h4>
+        <h3>Em ate 10 vezes</h3>
+        <h5>
+          Parcelamos sua compra em ate 10x sem juros <br> para todos os cartões de
+          credito.
+        </h5>
+      </div>
+      <div class="footer-info-card">
+        <h4>Compre pelo</h4>
+        <h3>Whatsapp</h3>
+        <h5>
+          Horario de atendimento das 09:00 as 19:00 <br>das segunda a sexta
+        </h5>
+        <h3>(19)99999-9999</h3>
+      </div>
+      <div class="footer-info-card">
+        <h4>Fale conosco</h4>
+        <h3>Atendimento</h3>
+        <h5>
+          Horario de atendimento das 09:00 as 19:00 <br>da segunda até sexta feira.
+        </h5>
+        <h3>(19)99999-9999</h3>
       </div>
     </section>
-  </div>
-  <div class="rights">
-    <div class="container-footer">
-      <h5>
-        Biblioteca Provérbios - CNPJ: 12.345.678/0001-95 - Todos os
-        direitos reservados
-      </h5>
+    <div class="footer-bg">
+      <section class="footer-nav container container-flex">
+        <div class="footer-nav-container">
+          <div class="footer-navitem-container">
+            <h3>Institucional</h3>
+            <ul>
+              <li><a href="Sobre.html">Sobre Nós</a></li>
+              <li><a href="faleconosco.html">Fale Conosco</a></li>
+              <li><a href="adm.html">Pedidos</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="footer-social-container">
+          <h3>Siga nossas redes sociais</h3>
+          <h5>Acompanhe as novidades pelas nossas redes sociais</h5>
+          <div class="social-icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-</footer>
-
-
-
-
+    <div class="rights">
+      <div class="container-footer">
+        <h5>
+          Biblioteca Provérbios - CNPJ: 12.345.678/0001-95 - Todos os
+          direitos reservados
+        </h5>
+      </div>
+    </div>
+  </footer>
+  <!-- Fim do footer-->
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-    

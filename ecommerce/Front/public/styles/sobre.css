@@ -12,6 +12,7 @@ main{
     background-color: rgb(255, 255, 255);
     
 }
+ /*Inicio do header */
 
 .texto-Informativo {
     display: flex;
@@ -32,6 +33,7 @@ main{
 
 }
 
+/*Inicio da barra de navegação*/
 
 
 #header-navbar  {
@@ -162,6 +164,10 @@ svg {
     width: 20px;
    
 } 
+/*Fim da barra de navegação */
+/*Fim do header */
+
+
 
 .text-main-sobre_nós {
     
@@ -394,12 +400,14 @@ svg {
     font-size: 20px;
     font-style: normal;
 }
+/*Fim do main */
 
 
 
 
 
 
+/*Inicio do footer */
 
 .footer-info-container {
     padding-top: 3.125em;
@@ -513,5 +521,6 @@ svg {
  }
 
 
+/*Fim  do footer */
 
 
